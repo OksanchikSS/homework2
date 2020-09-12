@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <nav>
+        <header>
+            <h1>РОЗПОВІДЬ ПРО МРІЮ</h1>
+                <ul>
+                    <li>
+                        <a href="index.html">ГОЛОВНА</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="form.html">ФОРМА</a>
+                    </li>
+                </ul>
+        </header>
+    </nav>
+    <main>
+        <h3>Якщо ви готові мені подарувати такого котика <br>чекаю від вас листа про інформацію де його забрати</h3>
+        <form action="https://formspree.io/mleoreyy" method="POST">
+            <label>Info:
+                <input type="text" id="info" name="info" placeholder="Інформація" required>
+            </label>
+            <br><br>
+            <label>E-mail:
+                <input type="email" id="email" name="email" placeholder="@email" required>
+            </label>
+            <br><br>
+            <label>Telephon:
+                <input type="telephon" id="telephone" name="telephon" placeholder="+38(123)4567890" required>
+            </label>
+            <br><br>
+                <button type="submit">Надіслати</button>
+        </form>
+    </main>
+</body>
+</html>
